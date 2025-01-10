@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300;
+  }
+
+  ::selection {
+    @apply bg-blue-500/30 text-white;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/10 dark:bg-gray-900/50 backdrop-blur-sm border border-white/20 dark:border-gray-800/50 rounded-xl;
+  }
+
+  .gradient-border {
+    @apply relative before:absolute before:inset-0 before:-z-10 before:p-[1px] before:bg-gradient-to-r before:from-blue-500 before:to-purple-500 before:rounded-xl;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent;
+  }
+
+  .clip-hex {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}
