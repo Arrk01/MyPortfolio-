@@ -5,7 +5,7 @@ import { GlowingButton } from '../ui/GlowingButton';
 export function ResumeButton() {
   const handleDownload = () => {
     // Replace with actual resume URL
-    const resumeUrl = 'AbhishekResume.pdf';
+    const resumeUrl = './AbhishekResume.pdf';
     window.open(resumeUrl, '_blank');
   };
 
