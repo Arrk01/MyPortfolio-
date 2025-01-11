@@ -34,7 +34,7 @@ const projects = [
       '📆 Link Expiration: Set expiration dates for temporary links.',
       '🌐 Mobile-Friendly Interface: Fully responsive design for optimal use on any device.'
   ],
-  github: 'https://incredible-travesseiro-238c04.netlify.app/',
+  github: 'https://github.com/Arrk01/URL-Shortener',
   live: 'https://incredible-travesseiro-238c04.netlify.app/'
 }
 
