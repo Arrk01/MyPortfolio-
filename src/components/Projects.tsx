@@ -34,8 +34,8 @@ const projects = [
       '📆 Link Expiration: Set expiration dates for temporary links.',
       '🌐 Mobile-Friendly Interface: Fully responsive design for optimal use on any device.'
   ],
-  github: 'https://img.freepik.com/free-vector/coming-soon-text-abstract-sunrise-dark-background-with-motion-effect_157027-1073.jpg?t=st=1736541241~exp=1736544841~hmac=d536560e14f51b523a011917d814a813e9e0efc9a2f04c6bb57e7f30c3aca120&w=2000',
-  live: 'https://img.freepik.com/free-vector/coming-soon-text-abstract-sunrise-dark-background-with-motion-effect_157027-1073.jpg?t=st=1736541241~exp=1736544841~hmac=d536560e14f51b523a011917d814a813e9e0efc9a2f04c6bb57e7f30c3aca120&w=2000'
+  github: 'https://incredible-travesseiro-238c04.netlify.app/',
+  live: 'https://incredible-travesseiro-238c04.netlify.app/'
 }
 
 ];
